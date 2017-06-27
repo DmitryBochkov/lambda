@@ -1,0 +1,20 @@
+// libs
+@import "bootstrap";
+@import "../../node_modules/font-awesome-scss/scss/font-awesome";
+
+//base
+@import "mixins";
+@import "fonts";
+@import "style-variables";
+@import "base";
+
+
+// custom components
+@import "components/header";
+@import "components/main-menu";
+@import "components/button";
+@import "components/social";
+@import "components/section-title";
+@import "components/about";
+@import "components/ingredients";
+@import "components/food-menu";

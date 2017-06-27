@@ -1,0 +1,43 @@
+.header {
+  position: relative;
+  z-index: 2;
+  &:before {
+    @include pseudo;
+    width: 100%;
+    height: 159px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.21) 0%,rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36000000', endColorstr='#00000000',GradientType=0 );
+    z-index: 1;
+  }
+}
+.header__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #7e7262;
+  background-image: url(../img/header-bg.jpg);
+  background-size: cover;
+}
+.header__text {
+  padding-top: 120px;
+  padding-bottom: 143px;
+}
+.header__text h1 {
+  margin: 0;
+  margin-bottom: 40px;
+  padding-bottom: 70px;
+  background-image: url(../img/divider.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  opacity: 0.92;
+  text-shadow: 0.5px 0.9px 2px rgba(1, 1, 1, 0.64);
+  font-family: $heading-font;
+  color: #fff;
+  font-size: 90px;
+}
+.top-nav {
+  position: relative;
+  z-index: 2;
+}

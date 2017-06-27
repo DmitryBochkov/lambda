@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Gentium Book Basic';
+    src: url('../fonts/GentiumBook/genbkbasb-webfont.eot');
+    src: url('../fonts/GentiumBook/genbkbasb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/GentiumBook/genbkbasb-webfont.woff2') format('woff2'),
+         url('../fonts/GentiumBook/genbkbasb-webfont.woff') format('woff'),
+         url('../fonts/GentiumBook/genbkbasb-webfont.ttf') format('truetype'),
+         url('../fonts/GentiumBook/genbkbasb-webfont.svg#gentium_book_basicbold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Yeseva One';
+    src: url('../fonts/YesevaOne/yesevaone-regular-webfont.eot');
+    src: url('../fonts/YesevaOne/yesevaone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/YesevaOne/yesevaone-regular-webfont.woff2') format('woff2'),
+         url('../fonts/YesevaOne/yesevaone-regular-webfont.woff') format('woff'),
+         url('../fonts/YesevaOne/yesevaone-regular-webfont.ttf') format('truetype'),
+         url('../fonts/YesevaOne/yesevaone-regular-webfont.svg#yeseva_oneregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/lato-regular-webfont.eot');
+    src: url('../fonts/Lato/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato/lato-regular-webfont.woff2') format('woff2'),
+         url('../fonts/Lato/lato-regular-webfont.woff') format('woff'),
+         url('../fonts/Lato/lato-regular-webfont.ttf') format('truetype'),
+         url('../fonts/Lato/lato-regular-webfont.svg#latoregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans/opensans-bold-webfont.eot');
+    src: url('../fonts/OpenSans/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans/opensans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/OpenSans/opensans-bold-webfont.woff') format('woff'),
+         url('../fonts/OpenSans/opensans-bold-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans/opensans-regular-webfont.eot');
+    src: url('../fonts/OpenSans/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/OpenSans/opensans-regular-webfont.woff') format('woff'),
+         url('../fonts/OpenSans/opensans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans/opensans-italic-webfont.eot');
+    src: url('../fonts/OpenSans/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans/opensans-italic-webfont.woff2') format('woff2'),
+         url('../fonts/OpenSans/opensans-italic-webfont.woff') format('woff'),
+         url('../fonts/OpenSans/opensans-italic-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans/opensans-italic-webfont.svg#open_sansitalic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+}

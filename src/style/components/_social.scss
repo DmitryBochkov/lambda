@@ -1,0 +1,19 @@
+.social {
+  position: absolute;
+  top: 30px;
+  right: 0;
+
+  &__link {
+    display: inline-block;
+    padding: 5px;
+    color: #dab33e;
+    font-size: 21px;
+    transition: 0.25s;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: #fff;
+    }
+  }
+}
