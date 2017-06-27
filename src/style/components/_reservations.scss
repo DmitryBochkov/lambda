@@ -1,0 +1,14 @@
+.reservations {
+  padding: 100px 0;
+}
+.reservations__content {
+  margin-left: -($grid-gutter-width / 2);
+  margin-right: -($grid-gutter-width / 2);
+  padding: 0 70px;
+  text-align: center;
+  p {
+    font-size: 16px;
+    color: #4c4c4c;
+    letter-spacing: -0.2px;
+  }
+}
