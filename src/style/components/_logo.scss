@@ -1,0 +1,15 @@
+.logo {
+  margin-left: -($grid-gutter-width / 2);
+
+  a {
+    display: block;
+    padding-top: 7px;
+
+    img {
+      display: block;
+      width: auto;
+      height: 92px;
+      transition: 0.25s;
+    }
+  }
+}

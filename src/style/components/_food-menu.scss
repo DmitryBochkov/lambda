@@ -1,25 +1,33 @@
 .food-menu {
-  padding: 80px 0;
+  padding-top: 85px;
+  padding-bottom: 32px;
   background-image: url(../img/food-menu-pattern.png), linear-gradient(134deg, rgba(32, 90, 91, 0.01) 0%, rgba(255, 255, 255, 0.01) 100%);
   box-shadow: inset 0 0 50px rgba(1, 1, 1, 0.14);
 }
 .food-menu__section {
   margin-bottom: 20px;
+
+  .section-title {
+    margin-bottom: 25px;
+  }
 }
 .food-menu__list {
   margin: 0;
   padding: 0;
   padding-left: 56px;
   padding-right: 59px;
+  margin-bottom: 65px;
   list-style: none;
 }
 .food-menu__item {
   position: relative;
   padding: 0 10px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 
   &.special {
     border: 1px solid #c89f2d;
+    margin-top: -5px;
+    margin-bottom: 20px;
 
     &:before {
       content: 'Special';

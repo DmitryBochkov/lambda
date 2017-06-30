@@ -1,6 +1,6 @@
 .main-menu {
   position: relative;
-  padding-right: 85px;
+  padding-right: 60px;
   .nav.navbar-nav {
     margin-right: -15px;
     text-align: right;
@@ -8,6 +8,7 @@
     font-size: 21px;
     font-weight: 700;
     font-family: $accent-font;
+    text-transform: capitalize;
 
     li {
       float: none;
@@ -24,8 +25,10 @@
       }
 
       a {
-        padding: 40px 15px;
+        padding: 50px 20px;
         color: #fff;
+        outline: none;
+        transition: 0.25s;
 
         &:hover,
         &:active,
