@@ -1,11 +1,21 @@
 //= jquery-1.12.4.min.js
 //= bootstrap.min.js
 //= jquery.easing.min.js
-//= jquery.sticky.js
 //= jquery.scrolly.js
 
 $(document).ready(function(){
-   $(".top-nav").sticky({topSpacing:0});
+
+  // fixed-nav
+  function fixNav() {
+    if ($(window).scrollTop() > 0) {
+      $('body').addClass('fixed-nav');
+    } else {
+      $('body').removeClass('fixed-nav');
+
+    }
+  }
+
+  $(window).on('scroll', fixNav);
 
    // smooth scroll
    $('.nav__item a').bind('click', function(e) {
