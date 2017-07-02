@@ -30,6 +30,7 @@
   &--black {
     width: 228px;
     margin: 0 13px;
+    margin-bottom: 10px;
     &:before {
       opacity: 0.8;
       background-color: rgba(0, 0, 0, 0.7);
@@ -39,6 +40,10 @@
       &:before {
         background-color: rgba(0, 0, 0, 0.9);
       }
+    }
+
+    @media (min-width: $screen-sm-min) {
+      margin-bottom: 0;
     }
   }
 
