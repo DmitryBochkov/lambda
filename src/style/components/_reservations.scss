@@ -1,26 +1,54 @@
 .reservations {
-  padding-top: 100px;
-  padding-bottom: 103px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-image: url(../img/about-pattern.png), linear-gradient(-13deg, rgba(12, 52, 53, 0) 0%, rgba(255, 255, 255, 0) 100%);
   box-shadow: inset 0 0 50px rgba(1, 1, 1, 0.05);
+
+  @media (min-width: $screen-md-min) {
+    padding-top: 100px;
+    padding-bottom: 103px;
+  }
 }
 .reservations__images {
-  margin-left: -($grid-gutter-width / 2);
+  font-size: 0;
+  text-align: center;
   img {
-    width: 270px;
-    float: left;
+    width: 48%;
+    max-width: 270px;
+    height: auto;
+    display: inline-block;
   }
   img:first-child {
-    margin-right: 30px;
+    margin-right: 4%;
+  }
+
+  @media (min-width: $screen-lg-min) {
+    margin-left: -($grid-gutter-width / 2);
   }
 }
 .section-title--reservations {
   margin-top: 0;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
+  @media (min-width: $screen-lg-min) {
+    margin-bottom: 25px;
+  }
 }
 .reservations__content {
-  margin-right: -($grid-gutter-width / 2);
-  padding: 0 70px;
+  padding: 0;
+  padding-bottom: 50px;
+
+  @media (min-width: 480px) {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  @media (min-width: $screen-md-min) {
+    padding: 0;
+  }
+  @media (min-width: $screen-lg-min) {
+    margin-right: -($grid-gutter-width / 2);
+    padding: 0 70px;
+  }
+
   p {
     font-size: 16px;
     color: #4c4c4c;
@@ -29,10 +57,18 @@
 }
 
 .reservations__form {
-  padding-top: 26px;
   font-family: $secondary-text-font;
+
+  @media (min-width: $screen-lg-min) {
+    padding-top: 26px;
+  }
+
   .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+
+    @media (min-width: $screen-lg-min) {
+      margin-bottom: 25px;
+    }
   }
   fieldset {
     margin-bottom: 12px;
@@ -60,4 +96,21 @@
       box-shadow: none;
     }
   }
+
+  .datepicker {
+    position: relative;
+    input {
+      padding-right: 25px;
+    }
+  }
+  .datepicker__icon {
+    position: absolute;
+    bottom: 8px;
+    right: 12px;
+    color: #7c7c7c;
+    font-size: 13px;
+  }
+}
+.pika-single {
+  font-family: $secondary-text-font;
 }

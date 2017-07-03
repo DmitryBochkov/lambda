@@ -114,7 +114,7 @@
     </section><!-- about  -->
 
     <section id="ingredients" class="ingredients">
-      <div class="parallax-bg ingredients__bg" data-velocity="-0.2"></div>
+      <div class="parallax-bg ingredients__bg"></div>
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-6">
@@ -135,7 +135,7 @@
     <section id="food-menu" class="food-menu">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-sm-6">
             <section class="food-menu__section">
               <h2 class="section-title">Appetisers</h2>
               <ul class="food-menu__list">
@@ -172,7 +172,7 @@
             </section>
           </div>
 
-          <div class="col-md-6">
+          <div class="col-sm-6">
             <section class="food-menu__section">
               <h2 class="section-title">Starters</h2>
               <ul class="food-menu__list">
@@ -250,13 +250,7 @@
     <section id="reservations" class="reservations">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <div class="reservations__images">
-              <img src="img/reservations-1.jpg" alt="Reservations">
-              <img src="img/reservations-2.jpg" alt="Reservations">
-            </div>
-          </div>
-          <div class="col-md-6">
+          <div class="col-md-6 col-md-push-6">
             <div class="reservations__content">
               <h2 class="section-title section-title--reservations">Just the right food</h2>
               <p>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food.</p>
@@ -264,13 +258,13 @@
               <form class="reservations__form">
                 <fieldset>
                   <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-sm-6">
                       <div class="form-group">
                         <label for="name">Name</label>
                         <input type="text" class="form-control" id="name" placeholder="your name *">
                       </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-sm-6">
                       <div class="form-group">
                         <label for="email">Email</label>
                         <input type="email" class="form-control" id="email" placeholder="your email *">
@@ -278,18 +272,21 @@
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-6">
-                      <div class="form-group">
-                        <label for="date">Date</label>
-                        <input type="text" class="form-control" id="date" placeholder="date *">
+                    <div class="col-sm-6">
+                      <div class="form-group datepicker">
+                        <label for="datepicker">Date</label>
+                        <input type="text" class="form-control" id="datepicker" placeholder="date *">
+                        <span class="datepicker__icon"><i class="fa fa-calendar" aria-hidden="true"></i></span>
                       </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-sm-6">
                       <div class="form-group">
                         <label for="email">Party number</label>
                         <select class="form-control">
                           <option>party number</option>
-                          <option>id</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
                         </select>
                       </div>
                     </div>
@@ -299,6 +296,12 @@
               </form>
             </div>
           </div>
+          <div class="col-md-6 col-md-pull-6">
+            <div class="reservations__images">
+              <img src="img/reservations-1.jpg" alt="Reservations">
+              <img src="img/reservations-2.jpg" alt="Reservations">
+            </div>
+          </div>
         </div>
       </div>
     </section><!-- reservations  -->
@@ -306,7 +309,7 @@
     <footer class="main-footer">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-sm-4">
             <section class="footer-column footer-column--about">
               <h3 class="footer-column__title">About Us</h3>
               <div class="footer-column__text">
@@ -314,7 +317,7 @@
               </div>
             </section>
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4">
             <section class="footer-column">
               <h3 class="footer-column__title">Opening Hours</h3>
               <div class="footer-column__text">
@@ -331,7 +334,7 @@
               </ul>
             </section>
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4">
             <section class="footer-column footer-column--location">
               <h3 class="footer-column__title">Our Location</h3>
               <div class="footer-column__text">

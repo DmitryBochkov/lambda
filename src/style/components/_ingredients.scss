@@ -1,21 +1,31 @@
 .ingredients {
   position: relative;
-  padding-top: 100px;
-  padding-bottom: 99px;
+  overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 50px;
   color: #fff;
   background-color: #616c51;
+
+  .container {
+    z-index: 2;
+  }
+
+  @media (min-width: $screen-sm-min) {
+    padding-top: 100px;
+    padding-bottom: 99px;
+  }
 }
 .ingredients__bg {
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
+  height: 150%;
   background-image: url(../img/ingredients-bg.jpg);
-  // background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  z-index: 1;
 }
 .section-title--ingredients {
   margin-bottom: 25px;
@@ -23,12 +33,24 @@
   background-image: url(../img/section-title-divider-white.png);
 }
 .ingredients__content {
-  padding: 75px;
-  padding-top: 60px;
-  padding-bottom: 80px;
-  margin-right: -($grid-gutter-width / 2);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 40px;
+  padding-bottom: 50px;
   position: relative;
   z-index: 1;
+
+  @media (min-width: $screen-sm-min) {
+    padding: 50px;
+  }
+  @media (min-width: $screen-md-min) {
+    margin-right: -($grid-gutter-width / 2);
+  }
+  @media (min-width: $screen-lg-min) {
+    padding: 75px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
 }
 .ingredients__content:before {
   @include pseudo;
@@ -52,5 +74,18 @@
 .ingredients__images img {
   display: inline-block;
   vertical-align: top;
-  margin: 0 13px;
+  margin: 0 5px;
+  width: 75px;
+  height: auto;
+
+  @media (min-width: 480px) {
+    width: 110px;
+  }
+  @media (min-width: $screen-md-min) {
+    width: 100px;
+  }
+  @media (min-width: $screen-md-min) {
+    width: 110px;
+    margin: 0 13px;
+  }
 }

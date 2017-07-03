@@ -9,10 +9,14 @@
   margin-bottom: 25px;
 
   &--about {
-    margin-left: -($grid-gutter-width / 2);
+    @media (min-width: $screen-lg-min) {
+      margin-left: -($grid-gutter-width / 2);
+    }
   }
   &--location {
-    margin-right: -($grid-gutter-width / 2);
+    @media (min-width: $screen-lg-min) {
+      margin-left: -($grid-gutter-width / 2);
+    }
   }
 }
 .footer-column__title {

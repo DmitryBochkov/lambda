@@ -1,7 +1,15 @@
 //= jquery-1.12.4.min.js
 //= bootstrap.min.js
 //= jquery.easing.min.js
-//= jquery.scrolly.js
+//= ../../node_modules/pikaday/pikaday.js
+//= ../../node_modules/gsap/src/minified/TweenMax.min.js
+//= ../../node_modules/scrollmagic/scrollmagic/minified/ScrollMagic.min.js
+//= ../../node_modules/scrollmagic/scrollmagic/minified/plugins/animation.gsap.min.js
+
+//date picker
+var picker = new Pikaday({
+  field: document.getElementById('datepicker')
+ });
 
 $(document).ready(function(){
 
@@ -33,8 +41,22 @@ $(document).ready(function(){
    $('body').scrollspy({
      target: '.navbar-collapse',
      offset: 95
-   })
+   });
 
-   // parallax
-   $('.parallax-bg').scrolly({bgParallax: true});
+   // Init ScrollMagic
+   var controller = new ScrollMagic.Controller();
+
+   // parallax scene
+   var parallaxTl1 = new TimelineMax();
+   parallaxTl1
+     .from('.ingredients__bg', 2, {y: '-50%', ease:Power0.easeNone}, 0) ;
+
+   var ingredientsParallaxScene = new ScrollMagic.Scene({
+     triggerElement: '#ingredients',
+     triggerHook: 1,
+     duration: '200%'
+   })
+   .setTween(parallaxTl1)
+   .addTo(controller);
+
  });
