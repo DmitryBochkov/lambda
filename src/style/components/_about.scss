@@ -18,12 +18,13 @@
     margin-left: -($grid-gutter-width / 2);
     margin-right: -($grid-gutter-width / 2);
   }
-}
-.about__content p {
-  text-align: center;
-  color: #4c4c4c;
-  font-size: 16px;
-  letter-spacing: -0.35px;
+
+  p {
+    text-align: center;
+    color: #4c4c4c;
+    font-size: 16px;
+    letter-spacing: -0.35px;
+  }
 }
 .about__cook {
   text-align: center;

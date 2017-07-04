@@ -9,7 +9,6 @@
   },
   "devDependencies": {
     "browser-sync": "^2.18.5",
-    "gsap": "^1.20.2",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-clean-css": "^2.3.2",
@@ -19,9 +18,10 @@
     "gulp-uglify": "^2.0.0",
     "gulp-watch": "^4.3.11",
     "gulp.spritesmith": "^6.2.1",
+    "jquery.easing": "^1.4.1",
+    "jquery.stellar": "^0.6.2",
     "pikaday": "^1.6.1",
-    "rimraf": "^2.5.4",
-    "scrollmagic": "^2.0.5"
+    "rimraf": "^2.5.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

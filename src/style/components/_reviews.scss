@@ -5,6 +5,11 @@
   overflow: hidden;
   color: #fff;
   background-color: #171e22;
+  background-image: url(../img/reviews-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 0;
+  background-attachment: fixed;
 
   .container {
     z-index: 2;

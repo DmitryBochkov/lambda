@@ -5,28 +5,18 @@
   padding-bottom: 50px;
   color: #fff;
   background-color: #616c51;
-
-  .container {
-    z-index: 2;
-  }
+  background-image: url(../img/ingredients-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 0;
+  background-attachment: fixed;
 
   @media (min-width: $screen-sm-min) {
     padding-top: 100px;
     padding-bottom: 99px;
   }
 }
-.ingredients__bg {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 150%;
-  background-image: url(../img/ingredients-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  z-index: 1;
-}
+
 .section-title--ingredients {
   margin-bottom: 25px;
   color: #fff;
