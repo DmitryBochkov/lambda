@@ -5,6 +5,9 @@
   "main": "index.js",
   "dependencies": {
     "font-awesome-scss": "^1.0.0",
+    "jquery.easing": "^1.4.1",
+    "jquery.stellar": "^0.6.2",
+    "pikaday": "^1.6.1",
     "gulp": "^3.9.1"
   },
   "devDependencies": {
@@ -18,9 +21,6 @@
     "gulp-uglify": "^2.0.0",
     "gulp-watch": "^4.3.11",
     "gulp.spritesmith": "^6.2.1",
-    "jquery.easing": "^1.4.1",
-    "jquery.stellar": "^0.6.2",
-    "pikaday": "^1.6.1",
     "rimraf": "^2.5.4"
   },
   "scripts": {
